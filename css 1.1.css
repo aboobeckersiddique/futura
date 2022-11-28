@@ -1,0 +1,17 @@
+h1{
+    background-color: gray;
+    color: red;
+    text-shadow: 5px 3px green;
+    border:3px solid blue ;
+
+}
+p{
+    background-image: url("https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-23/world-cup/common/f23-worldcup-featureimg-16x9.jpg.adapt.crop16x9.1023w.jpg");
+    color: blue;
+    font: size 5vm; 
+    background: size 100%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    word-spacing: 6px; 
+    border-top: red;
+}

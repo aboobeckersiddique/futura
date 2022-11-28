@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html
+        {
+            scroll-behavior: smooth;
+        }
+        #sec1 {
+            height: 600px;
+            background-color: burlywood;
+        }
+        #sec2 {
+            height: 600px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tap to scroll</h1>
+    <div id="sec1">
+        <h2>section 1</h2>
+        <p>click on the link to see "next page" </p>
+        <a href="#sec2">click to next page</a>
+    </div>
+    <div id="sec2">
+       <h2>section 2</h2>
+       <a href="#sec1">click to see previous page</a>
+    </div>
+    
+</body>
+</html>
